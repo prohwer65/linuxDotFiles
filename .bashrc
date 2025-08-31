@@ -122,10 +122,10 @@ PERL_LOCAL_LIB_ROOT="/home/${USER}/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB
 PERL_MB_OPT="--install_base \"/home/${USER}/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/${USER}/perl5"; export PERL_MM_OPT;
 
-if [ -e /opt/nvim-linux64/bin ] then 
+if [ -e /opt/nvim-linux64/bin ]; then 
     export PATH="$PATH:/opt/nvim-linux64/bin"
 fi
 
-if [ -e ~/.cargo/bin] then 
-export PATH="$PATH:~/.cargo/bin"
+if [ -e ~/.cargo/bin ]; then 
+    export PATH="$PATH:~/.cargo/bin"
 fi
