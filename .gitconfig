@@ -2,9 +2,10 @@
 	name = Paul Rohwer
 	email = prohwer65@gmail.com
 [credential]
-	helper = manager
-	helper = /usr/local/bin/git-credential-manager
-	credentialStore = /home/prohwer/.netrc
+    helper = cache
+    #helper = manager
+    #helper = /usr/local/bin/git-credential-manager
+    #credentialStore = /home/prohwer/.netrc
 [core]
 	editor =  ~/.cargo/bin/neovide --no-fork
     editor = /usr/bin/gvim  --no-fork

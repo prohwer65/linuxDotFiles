@@ -1,4 +1,6 @@
 *.*~ 
 *.ignore 
-.netrwhist
-bundle/Vundle.vim
+*.tdy 
+tmp*.* 
+*.tmp
+*.o
