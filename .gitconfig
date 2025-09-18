@@ -7,9 +7,7 @@
     #helper = /usr/local/bin/git-credential-manager
     #credentialStore = /home/prohwer/.netrc
 [core]
-	editor =  ~/.cargo/bin/neovide --no-fork
-    editor = /usr/bin/gvim  --no-fork
-	editor = gvim.bat
+    editor = /usr/bin/gvim 
 [alias]
 	co = checkout
 	ci = commit
