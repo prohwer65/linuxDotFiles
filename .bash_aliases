@@ -17,5 +17,6 @@ fi
 
 alias smartctl='sudo smartctl --drivedb ~/drivedb-atp-2259.h ' 
 
-
+alias git_personal='git config --global user.email prohwer65@gmail.com && git config --global user.name "Paul Rohwer"'
+alias git_work='git config --global user.email paulr@us.atpinc.com && git config --global user.name "atp-PaulR"'
 
