@@ -2,7 +2,7 @@
 	name = Paul Rohwer
 	email = prohwer65@gmail.com
 [credential]
-    helper = cache
+	helper = store
     #helper = manager
     #helper = /usr/local/bin/git-credential-manager
     #credentialStore = /home/prohwer/.netrc
@@ -12,7 +12,7 @@
 	co = checkout
 	ci = commit
 	br = branch
-	df = diff
+	df = diff --ignore-all-space
 	st = status
 	st1 = status --short
 	lo = log --oneline
