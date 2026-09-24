@@ -134,3 +134,7 @@ fi
 if [ -e ~/.cargo/bin ]; then 
     export PATH="$PATH:~/.cargo/bin"
 fi
+
+
+# RaspPi and Python FIFO for GPIO pins
+export LG_WD=/tmp
