@@ -6,9 +6,8 @@
 	helper = /usr/local/bin/git-credential-manager
 	credentialStore = /home/prohwer/.netrc
 [core]
-	editor =  ~/.cargo/bin/neovide --no-fork
     editor = /usr/bin/gvim  --no-fork
-	editor = gvim.bat
+    #editor = gvim.bat
 [alias]
 	co = checkout
 	ci = commit
@@ -44,3 +43,5 @@
     #clr_view_link = magenta
     #clr_view_index = magenta
 
+[init]
+	defaultBranch = main
